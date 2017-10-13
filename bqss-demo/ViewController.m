@@ -50,7 +50,7 @@
     _infoLabel = [UILabel new];
     _infoLabel.backgroundColor = [UIColor clearColor];
     _infoLabel.textColor = [UIColor colorWithWhite:74.0 / 255 alpha:1.0];
-    _infoLabel.text = @"表情搜搜";
+    _infoLabel.text = @"动图宇宙API";
     _infoLabel.font = [UIFont systemFontOfSize:24];
     _infoLabel.textAlignment = NSTextAlignmentRight;
     [_headerContainerView addSubview:_infoLabel];

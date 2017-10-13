@@ -13,7 +13,7 @@
     static BQSSApiClient *_sharedClient = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        NSString *baseUrl = @"https://open-api.biaoqingmm.com/open-api";
+        NSString *baseUrl = @"https://open-api.dongtu.com:1443/open-api";
         _sharedClient = [[BQSSApiClient alloc] initWithBaseURL:[NSURL URLWithString:baseUrl]];
         _sharedClient.securityPolicy = [BQ_AFSecurityPolicy policyWithPinningMode:AFSSLPinningModeNone];
     });

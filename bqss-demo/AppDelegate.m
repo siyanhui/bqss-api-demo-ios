@@ -19,7 +19,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     //初始化
-    [[BQSSApiClient sharedClient] setAppId:@"15e0710942ec49a29d2224a6af4460ee"];
+    [[BQSSApiClient sharedClient] setAppId:@"your app id"];
     
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
     

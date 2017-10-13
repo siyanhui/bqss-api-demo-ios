@@ -1,5 +1,5 @@
 # 简介
-本demo是表情搜搜的使用示例，示范了表情搜搜的三个使用场景，分别是：
+本demo是动图宇宙API的使用示例，示范了动图宇宙API的三个使用场景，分别是：
 - 根据用户输入即时联想场景
 
 ![img](/image/quater.png)
@@ -13,14 +13,14 @@
 ![img](/image/full.png)
 
 # API
-API地址为：https://open-api.biaoqingmm.com/open-api
+API地址为：https://open-api.dongtu.com:1443/open-api
 
 使用到的API有三个：
 - 热门标签：netword/hot
 - 流行表情：trending
 - 搜索：   emojis/net/search
 
-API文档详见 http://open.biaoqingmm.com/doc/rest/search/
+API文档详见 http://api-doc.dongtu.com/dongtu/
 
 # demo主要类介绍
 
